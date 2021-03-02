@@ -4,6 +4,8 @@
     <dv-full-screen-container>
       <top-header />
 
+      
+
       <div class="main-content">
         <digital-flop />
 
@@ -29,13 +31,13 @@
 
 
 <script>
-import topHeader from "./topHeader";
-import digitalFlop from "./digitalFlop";
-import rankingBoard from "./rankingBoard";
-import roseChart from "./roseChart";
-import waterLevelChart from "./waterLevelChart";
-import scrollBoard from "./scrollBoard";
-import cards from "./cards";
+import topHeader from "./components/topHeader";
+import digitalFlop from "./components/digitalFlop";
+import rankingBoard from "./components/rankingBoard";
+import roseChart from "./components/roseChart";
+import waterLevelChart from "./components/waterLevelChart";
+import scrollBoard from "./components/scrollBoard";
+import cards from "./components/cards";
 
 export default {
   data() {

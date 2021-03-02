@@ -3,7 +3,7 @@
     <dv-decoration-8 class="header-left-decoration" />
     <dv-decoration-5 class="header-center-decoration" />
     <dv-decoration-8 class="header-right-decoration" :reverse="true" />
-    <div class="center-title">Datav-demo1</div>
+    <div class="center-title">京东商城综合销售数据</div>
   </div>
 </template>
 
