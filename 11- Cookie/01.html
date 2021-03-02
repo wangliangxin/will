@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+<script>
+    document.cookie = 'username=will wang'
+    document.cookie = 'password = 123456'
+
+    var cookies = document.cookie
+    console.log(typeof cookies) // string
+    console.log(cookies) //  username=will wang; password=123456
+
+
+    document.cookie = 'username=luoliu'
+        // document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+
+    function getCookie(cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i].trim();
+            if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+        }
+        return "";
+    }
+
+    var name = getCookie('username')
+    console.log(name)
+</script>
