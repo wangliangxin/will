@@ -1,5 +1,5 @@
 {
-  "name": "jd-data",
+  "name": "demo1",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,13 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@jiaminghi/data-view": "^2.10.0",
-    "axios": "^0.21.1",
     "core-js": "^3.6.5",
-    "element-ui": "^2.15.1",
-    "less": "^4.1.1",
-    "less-loader": "^5.0.0",
-    "npm": "^7.6.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {

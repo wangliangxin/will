@@ -12,6 +12,7 @@
 
 <script>
 import siderBar from './siderbar'
+import axios from 'axios'
 
 export default {
   name: 'ScrollBoard',
@@ -20,16 +21,7 @@ export default {
       config: {
         header: ['品牌', '销售量', '好评率', '销售额'],
         data: [
-          ['2019-07-01 19:25:00', '路面危害-松散', '5', 'xxxxxxx'],
-          ['2019-07-02 17:25:00', '路面危害-路面油污清理', '13', 'xxxxxxx'],
-          ['2019-07-03 16:25:00', '交安设施-交通标志牌结构', '6', 'xxxxxxx'],
-          ['2019-07-04 15:25:00', '路基危害-防尘网', '2', 'xxxxxxx'],
-          ['2019-07-05 14:25:00', '交安设施-交通标志牌结构', '1', 'xxxxxxx'],
-          ['2019-07-06 13:25:00', '路面危害-松散', '3', 'xxxxxxx'],
-          ['2019-07-07 12:25:00', '路基危害-防尘网', '4', 'xxxxxxx'],
-          ['2019-07-08 11:25:00', '路面危害-路面油污清理', '2', 'xxxxxxx'],
-          ['2019-07-09 10:25:00', '交安设施-交通标志牌结构', '5', 'xxxxxxx'],
-          ['2019-07-10 09:25:00', '路基危害-防尘网', '3', 'xxxxxxx']
+          ['2019-07-01 19:25:00', '路面危害-松散', '5', '12', '  ']
         ],
         index: true,
         columnWidth: [50, 170, 300],
@@ -46,7 +38,33 @@ export default {
   },
   components:{
     siderBar
-  }
+  },
+
+  created() {
+    this.getData()
+  },
+  methods: {
+    getData(){
+      this.config.data = [
+         ['索菲利尔1', '11111', '100%', 'xxxxxxx'],
+          ['索菲利尔2', '11111', '100%', 'xxxxxxx'],
+          ['索菲利尔3', '11111', '100%', 'xxxxxxx'],
+          ['索菲利尔', '11111', '100%', 'xxxxxxx'],
+          ['索菲利尔', '11111', '100%', 'xxxxxxx'],
+          ['索菲利尔', '11111', '100%', 'xxxxxxx'],
+          ['索菲利尔', '11111', '100%', 'xxxxxxx'],
+          ['索菲利尔', '11111', '100%', 'xxxxxxx'],
+          ['索菲利尔', '11111', '100%', 'xxxxxxx'],
+          ['索菲利尔', '11111', '100%', 'xxxxxxx'],
+          ['索菲利尔', '11111', '100%', 'xxxxxxx']
+      ]
+    }
+
+    // axios.get('http://sfddata.tech:8281/jingdong/getSaleDetails').then(res=>{
+    //     console.log(res.data.data)
+    // })
+    
+  },
 }
 </script>
 
