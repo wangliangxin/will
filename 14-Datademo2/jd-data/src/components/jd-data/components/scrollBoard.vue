@@ -12,7 +12,6 @@
 
 <script>
 import siderBar from './siderbar'
-import axios from 'axios'
 
 export default {
   name: 'ScrollBoard',
