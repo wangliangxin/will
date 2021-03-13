@@ -16,3 +16,8 @@
 
 
 ![图片](https://raw.githubusercontent.com/will-wang-china/will/master/15-Vue%E7%BB%84%E4%BB%B6%E9%97%B4%E4%BC%A0%E5%80%BC/demo1/src/assets/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20210303161055.png)
+
+
+
+## 22. id选择器
+:love_letter: 结论：什么也不会发生，该正确解析的还是正确解析，但是开发时不建议使用相同的 id，因为容易造成文档结构混乱。
