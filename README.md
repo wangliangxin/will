@@ -28,4 +28,4 @@
 ## 24. element 制作form
 element-ui 的 tabs、timepiker、table、input 等组件的使用
 
-![p24](./ReImages/24.png)
+![p24](https://raw.githubusercontent.com/will-wang-china/will/master/ReImages/24.png)
