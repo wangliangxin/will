@@ -21,3 +21,11 @@
 
 ## 22. id选择器
 :love_letter: 结论：什么也不会发生，该正确解析的还是正确解析，但是开发时不建议使用相同的 id，因为容易造成文档结构混乱。
+
+
+
+
+## 24. element 制作form
+element-ui 的 tabs、timepiker、table、input 等组件的使用
+
+![p24](./ReImages/24.png)
